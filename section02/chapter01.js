@@ -4,7 +4,7 @@ Truthy & Falsy
 */
 
 if (123) {
-  console.log("123 is true"); // 실행행
+  console.log("123 is true"); // 실행
 } else {
   console.log("123 is false");
 }

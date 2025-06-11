@@ -32,7 +32,7 @@ console.log(arr1, unshiftres); // [1, 2, 3, 4] 4
 
 // 5. slice
 // 가위처럼 배열의 특정 범위를 잘라내서 새로운 배열로 반환
-// slice(자르기 시작할 인덱스, 자르기를 멈출출 인덱스*)
+// slice(자르기 시작할 인덱스, 자르기를 멈출 인덱스*)
 // * n번째 인덱스까지 자르고 싶다면 n+1 값을 두번째 인수로 입력
 const slicedArray = arr1.slice(1, 3); // 두번째 인덱스부터 세번째(2+1) 인덱스까지 자르기
 console.log(slicedArray, ", ", arr1); // [2, 3], [1, 2, 3, 4]
