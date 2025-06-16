@@ -33,12 +33,12 @@ console.log(names); // ['김주애', '정하율', '정하준']
 // 3. sort
 // 배열을 사전순으로 정렬하는 메서드. 배열의 순서를 직접 수정한다.
 // 문자열 값은 정렬하나 숫자 값은 정렬하지 못함.
-let arr3 = ["a", "b", "c"];
+let arr3 = ["b", "c", "a"];
 arr3.sort();
 
 console.log(arr3); // ['a', 'b', 'c']
 
-let arr3Num = [1, 2, 3];
+let arr3Num = [3, 2, 1];
 arr3Num.sort();
 
 console.log(arr3Num); // [1, 2, 3]
