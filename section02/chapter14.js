@@ -35,7 +35,7 @@ async function getData2() {
 async function printData() {
   //await 없이 일반적으로 프로미스 객체 결과값을 참조할시
   getData2().then((value) => {
-    console.log(value);
+    console.log(value); // {name: '김성원', id: '이또롱'}
   });
 
   const data = await getData2();
