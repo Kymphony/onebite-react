@@ -46,3 +46,10 @@ console.log("안녕 Node.js");
 // 패키지 스크립트 작성하기
 // node 의 실행 대상 파일이 경로가 달라지면 node 커맨드 실행마다 경로를 다 적어야 하기 때문에 불편.
 // 이를 편하게 하기 위해 package.json 안에 "start" 지시자를 추가해준다.
+/*
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node src/chapter03.js"
+  },
+  */
+// 이후에는 npm run start 커맨드로 파일을 실행할 수 있다.

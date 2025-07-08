@@ -2,10 +2,10 @@
   "name": "section03",
   "version": "1.0.0",
   "description": "node.js study",
-  "main": "chapter03.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/chapter03.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,12 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Kymphony/onebite-react/issues"
   },
-  "homepage": "https://github.com/Kymphony/onebite-react#readme"
+  "homepage": "https://github.com/Kymphony/onebite-react#readme",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
 }
