@@ -1,0 +1,23 @@
+
+각 디렉토리별 설명 (42. 4.2 첫 React App 생성하기 강의 중)
+
+> public
+이미지 파일이나 동영상 파일같은 동적인 파일들을 보관하는 저장소
+
+> src
+코드 파일 보관
+
+> src/assets/
+public과 마찬가지로 이미지 파일이나 동영상 파일 보관
+
+> eslint.config.js
+코드 스타일에 관해 설정하는 파일
+
+> .gitignore
+깃허브에 업로드할때 올리면 안되는 파일들을 명시
+
+> index.html
+컴포넌트로 구성되는 react.js의 틀을 구성하는 파일
+
+> vite.config.js
+vite 툴의 옵션을 지정
